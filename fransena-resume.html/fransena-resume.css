@@ -2,3 +2,79 @@
 		margin: 0;
 		padding: 0;
 	}
+
+	body
+	{
+		font-family: "Times New Roman";
+		color: blue;
+		background: Lightblue;
+		padding: 20px;
+		border: 3px solid purple;
+		margin: 20px;
+		width: 900px;
+		padding-bottom: 70px;
+	}
+
+	header,
+	nav
+	{
+
+	    display: inline;
+		padding-right: 5px;
+		margin-right: 5px;
+		border-bottom: 1px;
+		text-align: center;
+
+		
+		}
+
+	h1{
+	    border-top: 1px solid pink;
+		text-align: center;
+		font-family: cursive;
+		color: #7c9bcf;
+
+
+	}
+	h2 {
+		border-top: 1px solid pink;
+		font-family: cursive;
+		color: #7c9bcf;
+		padding-top:20px;
+		border-bottom: 1px;
+
+	}
+
+    
+	ul 
+	{
+		list-style-type: square;
+		padding-top: 20px;
+		margin-left: 10px;
+	}
+
+	p{
+		padding-top: 15px;
+		text-indent: 6.5px;
+		padding-bottom: 15px;
+	}
+
+	footer
+	{   border-top: 1px solid pink;
+		padding-top: 20px;
+	    padding-bottom: 20px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}

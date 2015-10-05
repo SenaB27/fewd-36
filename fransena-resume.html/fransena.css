@@ -4,22 +4,24 @@
 	}
 
 	h1 {
+		font-family: cursive;
 		text-align: center;
         color: purple;
 	}
 
 	h2 {
          color: purple;
+         font-family: cursive;
 
 	}
 
 	body
 	{
 		font-family: "Times New Roman";
-		color: white;
-		background: gray;
+		color: blue;
+		background: lightblue;
 		padding: 20px;
-		border: 3px solid lightgray;
+		border: 3px solid purple;
 		margin: 20px;
 		width: 900px;
 		padding-bottom: 70px;
