@@ -1,0 +1,73 @@
+	* {
+			margin: 5px;
+			padding: 1px;
+			font-size: 15px;
+		}
+	body {
+		font-family: Helvetica, sans-serif;
+		background-color: #ECECEC
+	}
+
+	h1,
+	h2,
+	dt {
+	  font-family: 'Arial Black', sans-serif;
+	}
+
+	.wrapper {
+	  display: table;
+	  width: 885px;
+
+	}
+
+
+	.details > dl {
+	  display: table;
+	  text-align: center;
+	  width: 100%;
+	}
+
+	.detail-item {
+	  display: table-cell;
+	  width: 33.33%;
+	}
+
+	h1,
+	h2 {
+		color: #5c3900;
+	}
+
+	dt,
+	p {
+		color: #005796;
+	}
+
+	.main {
+	  background-color: #f0f0d8;
+	  display: table-cell;
+	  width: 66.66%;
+	  padding-left: 25px;
+	}
+
+	.sidebar {
+	  background-color: #f0d890;
+	  display: table-cell;
+	  width: 33.33%;
+	  padding-left: 20px;
+	}
+
+
+
+
+
+
+
+
+	
+
+
+
+
+	 
+
+
