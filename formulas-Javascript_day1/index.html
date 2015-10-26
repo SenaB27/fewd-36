@@ -34,30 +34,24 @@
     <script type="text/javascript" src="interface.js"></script>
     <script type="text/javascript">
       // Your code goes here!
-      function addTwoNewNumbers ( num1, num2){
-  var sum = num1 + num2
-  return sum;
-}
- 
- function calcCelciusToFarhrenheight(c) {
-  var f = (c*9/5+32;
-  return f;
 
+ function calcCelciusToFahrenheit(c){
+  var f = c*9/5 + 32;
+  return f;
  }
 
- function calcFarenheightToCelcius(f) {
+ function calcFahrenheitToCelcius(f) {
   var c = (f-32)*(5/9);
   return c;
  }
 
+ function calcCircumference(r) {
+  var circ = 2*window.Math.PI*r;
+  return circ;
+ }
  function calcLongestSide(a,b){
-  var c = Math.sqrt(( a*b)+(b*b))
+  var c = Math.sqrt((a*a)+(b*b))
    return c;
- }
- function calcCirumference(r) {
-  var c = 2*Math.PI*r;
-  return Math.round(c*100)/100;
- }
 
     </script>
   </body>
