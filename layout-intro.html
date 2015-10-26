@@ -1,0 +1,174 @@
+<!DOCKTYPE html>
+<html>
+<head>
+<title>Layout intro</title>
+<style>
+
+* {
+		margin: 0;
+		padding: 0;
+		font-size: 16px;
+		box-sizing: border-box;
+
+
+
+}
+
+body {
+
+		font-family: Arial;
+		line-height: 1.5;
+		margin: 20px 0;
+}
+
+
+p,
+td,
+h6,
+div, 
+span,
+article {
+		background: limegreen;
+		padding: 10px;
+}
+
+h1	{
+		font-size: 24px
+		text-align: right;
+
+}
+
+h2	{
+		margin: 30px  0  10px;
+		padding: 5px 10px;
+		background: Lightsteelblue;
+		font-size: 18px;
+}
+
+h1,
+h3 {
+			margin: 20px;
+}
+
+section {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		background: skyblue;
+}
+
+aside {
+		width: 300px;
+		background: peachpuff;
+}
+
+p,
+article {
+		flex: 1;
+}
+
+h6 {
+		flex: 2;
+}
+
+	.sidebar {
+		background: red;
+		width: 200px;
+
+	}
+
+	.main {
+		flex: 1;
+
+	}
+	.column {
+
+			flex-direction: column;
+	}
+
+	
+</style>	
+</head>
+<body>
+<h1> Css layout</h1>
+
+<h2> Table layout</h2>
+
+<table>
+	<tr>
+		<td> column 1</td>
+		<td> column 2</td>
+		<td> column 3</td>
+	</tr>
+</table>
+
+<h2>felxbox</h2>
+
+<h3>Natural Widths</h3>
+
+<section>
+	<div>column 1</div>
+	<div>column 2</div>
+	<div>column 3</div>
+</section>
+
+<h3>sidebar</h3>
+<section>
+	<aside>column 1</aside>
+	<span>column 2</span>
+	<span> column 3</span>
+</section>
+
+<h3>sidebar with class</h3>
+<section>
+	<span class="sidebar">Sidebar</span>
+	<span class="main"> Main</span>
+	<span>column 3</span>
+	
+</section>
+
+<h3>Three even columns</h3>
+<section>
+	<article>column 1</article>
+	<article>column 2</article>
+	<article>column 3</article>
+</section>
+
+<h3>single colomn</h3>
+<section>
+	<aside> column1</aside>
+	<article> column2</article>
+</section>
+		
+
+
+
+<h3> Holy Grail </h3>
+<section>
+ 	<article>
+ orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+	</article>
+ 	<article>here are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first 
+ 	</article>
+ 	<article>
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here.
+	</article>
+</section>
+
+<h3>One large column, two small</h3>
+<section>
+	<h6>column 1</h6>
+	<p>column 2</p>
+	<p>column 3</p>
+</section>
+
+<h3> flex column</h3>
+<section class="column">
+	<article>coloumn 1</article>
+	<article>coloumn 2</article>
+</section>
+
+
+
+</body>
+</html>
